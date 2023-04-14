@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.content h1{
+  margin-top: 200px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.content h1{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.content p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+</style>
+<title>Flood Website</title>
+</head>
+<body>
+    <div class="nav">
+      <ul>
+          <li><a class="active" href="https://ffs.india-water.gov.in/" target="_blank">Home</a></li>
+          <li><a href="https://timesofindia.indiatimes.com/topic/flood/news" target="_blank">News</a></li>
+          <li><a href="https://ffs.india-water.gov.in/main/contact-us" target="_blank">Contact</a></li>
+          <li><a href="https://ffs.india-water.gov.in/main/about-website" target="_blank">About</a></li>
+      </ul>
+       
+    </div>
+
+<video autoplay muted loop id="myVideo">
+  <source src="istockphoto-1344614682-640_adpp_is.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Giving Back provides a Helping Hand </h1>
+  <center><p>Floods can be a traumatic and emotional experience for those affected. The sudden and uncontrollable rush of water<br> can cause fear, panic, and 
+    a sense of helplessness. The damage caused by floods can be devastating, destroying <br>homes, businesses, and personal possessions. The disruption
+     to daily life can lead to feelings of <br>disorientation, loss, and uncertainty about the future. In some cases, floods can also cause loss of<br> life,
+      leaving behind grieving families and communities. The emotional toll of floods can<br> be long-lasting, with individuals and communities often struggling to recover and rebuild in the aftermath.</p></center>
+  <center><a  href="flood website.html"><button id="myBtn">II'm Learner</button> </a><a  href="https://forms.gle/b7vQoRBRBuxseJWU6"target="_blank"><button id="myBtn">II'm a Flood Victim</button></center></a>
+</div>
+
+
+
+</body>
+</html>
